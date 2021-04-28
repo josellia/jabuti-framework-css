@@ -9,9 +9,16 @@
     <link rel="jabuti icon" href="./imgs/fav.png" />
   </head>
   <body>
-    <section
-      class="container card bg-secondary border-radius-max box-shadow-style-1 border-style-primary"
-    >
+    <header>
+      <nav class="nav">
+        <div class="container">
+          <a href="#" class="active">Blog</a>
+          <a href="#">Site</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <section class="container">
       <h1>Title H1</h1>
       <h2>Title H2</h2>
       <h3>Title H3</h3>
@@ -39,7 +46,7 @@
     </section>
     <section class="container">
       <div class="grid col-3">
-        <div class="space-2 med-space-3 small-space-1">
+        <div class="space-2 med-space-3">
           <article class="card-default">
             <h1>Lorem ipsum dolor</h1>
             <p>
@@ -59,8 +66,20 @@
             </p>
           </article>
         </div>
-        <div class="card-default span-1 med-space-3 small-space-1">
+        <div class="card-default-dark span-1 med-space-3">
           <h3>Register</h3>
+          <form action="">
+            <input class="input" type="text" placeholder="Nome" name="" id="" />
+            <input
+              class="input"
+              type="password"
+              placeholder="Senha"
+              name=""
+              id=""
+            />
+            <button class="button">Login</button>
+            <button class="button">Register</button>
+          </form>
         </div>
       </div>
     </section>
